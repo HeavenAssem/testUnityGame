@@ -12,7 +12,7 @@ public class BaseUnit : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	virtual void Update () {
 		if (HealthPoints <= 0) {
 			Destroy(gameObject);
 		}
