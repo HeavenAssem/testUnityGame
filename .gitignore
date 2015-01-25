@@ -7,12 +7,15 @@
 *.pidb
 *.unityproj
 *.meta
+*.log
 .DS_Store
 /Library/FailedAssetImports.txt
 /Library/cache/
 /Library/previews/
 /Library/ScriptAssemblies
 /Library/assetDatabase3
+/Library/AssetServerCacheV3
+/Library/ShaderCache
 /obj
 /Temp
 

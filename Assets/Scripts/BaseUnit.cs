@@ -5,8 +5,7 @@ public class BaseUnit : MonoBehaviour {
     private int HealthPoints;
     private int ArmorPoints;
 
-
-
+	
 	// Use this for initialization
 	void Start () {
 	
@@ -14,6 +13,8 @@ public class BaseUnit : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (HealthPoints <= 0) {
+			Destroy(gameObject);
+		}
 	}
 }
